@@ -41,7 +41,7 @@ GRASS_TYPES = {
 }
 GREEN, BLUE, AMBER = "#19865c", "#5886b1", "#d89139"
 
-st.set_page_config(page_title="Forage Growth Simulator", page_icon="🌱", layout="wide")
+st.set_page_config(page_title="GrasslandDynamics", page_icon="🌱", layout="wide")
 st.markdown("""
 <style>
 .block-container {max-width: 1370px; padding-top: 1.45rem;}
@@ -388,7 +388,7 @@ def harvest_table(df: pd.DataFrame) -> pd.DataFrame:
 
 
 st.markdown('<div class="kicker">BFH · Wachstumsanalyse · Interaktives Experiment</div>', unsafe_allow_html=True)
-st.title("Forage Growth Simulator")
+st.title("GrasslandDynamics")
 st.markdown('<div class="caption-muted">Wachstum, Schnittmanagement und Klima am gewählten Standort untersuchen.</div>',
             unsafe_allow_html=True)
 
