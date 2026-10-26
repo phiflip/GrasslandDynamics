@@ -178,4 +178,8 @@ cython_debug/
 #  exclude from AI features like autocomplete and code analysis. Recommended for sensitive data
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
-.cursorindexingignore
+.cursorindexingignore/data/input/weather/historical_data/*/
+!/data/input/weather/historical_data/ber/
+!/data/input/weather/historical_data/dav/
+!/data/input/weather/historical_data/cdf/
+!/data/input/weather/historical_data/lug/
